@@ -1,0 +1,167 @@
+@media (max-width: 1920px) {
+    .light1{
+        left: -60%;
+        top: -100%;
+    } 
+}
+@media (max-width: 1920px) {
+    .light1{
+        left: -60%;
+        top: -100%;
+    } 
+    .sec1{
+        padding: 144px 100px 96px;
+    }
+    .marquee {
+        max-width: 1233px;
+    }
+}
+@media (max-width: 1024px) {
+    .light1{
+        display: none;
+        width: 0;
+        height: 0;
+    } 
+    .sec1{
+        flex-direction: column;
+        padding: 144px 130px 96px;
+    }
+    .sec1 .content{
+        order: 2;
+        width: 100%;
+    }
+    .sec1 .video{
+        order: 1;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    header .navigation li {
+        padding: 8px 8px;
+        font-size: 14px;
+    }
+    .marquee {
+        max-width: 768px;
+    }
+    .sec2{
+        overflow: hidden;
+    }
+    .sec2 .block {
+        padding: 64px 90px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2 .block .img{
+        order: 1;
+    }
+    .sec2 .block .content{
+        order: 2;
+    }
+    .sec2 .block .img img {
+        width: 65%;
+        height: fit-content;
+    }
+    .sec2 .block .img img.svg {
+        width: 50%;
+        margin-bottom: 50px; 
+    }
+    .light2{
+        right: 0;
+        top: 25%;
+    }
+    .sec3 .ecosystem {
+        padding: 0 100px;
+    }
+    .sec4 {
+        padding: 96px 52px;
+    }
+    .sec5 .content .img{
+        display: none;
+    }
+    .sec5 .content {
+        grid-template-columns: 1fr;
+        padding: 0 80px;
+    }
+    .sec6 {
+        padding: 0 80px;
+    }
+}
+@media (max-width: 768px) {
+    header .mobile{
+        display: block;
+    }
+    header .desktop{
+        display: none;
+    }
+    .marquee {
+        max-width: 84vw;
+    }
+    .marquee span {
+        width: 200%;
+    }
+    .sec1 {
+        padding: 144px 9vw 96px;
+    }
+    .marquee .companies{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        column-gap: 50px;
+    }
+    .sec5 .tokenomics {
+        width: 100%;
+        padding: 64px 6vw 0;
+    }
+    .sec3 .ecosystem {
+        padding: 0px 3vw;
+    }
+    .sec4{
+        overflow-y: auto;
+    }
+    .sec4 .board {
+        min-width: 900px;
+
+    }
+}
+@media (max-width: 426px) {
+    .sec2 .block{
+        padding: 10px 7vw !important;
+    }
+    .sec5 .content {
+        padding: 0 6vw;
+    }
+    .sec6 .title{
+        margin-top: 80px;
+    }
+    .sec6 {
+        padding: 0 6vw;
+    }
+    footer .navigation li {
+        padding: 8px 3vw;
+    }
+    .sec1 .content h1{
+        font-size: 11vw;
+    }
+    .marquee .companies img {
+        max-width: none;
+        width: 31vw;
+        height: 8vw;
+        object-fit: contain;
+    }
+    marquee .wrapper img {
+        margin-right: 15vw;
+        height: 7.5vw;
+        object-fit: contain;
+    }
+    .sec2 .block .img img {
+        width: 60vw;
+        height: 60vw;
+        object-fit: contain;
+    }
+    .sec1 .content h2 {
+        font-size: 13vw;
+    }
+    .sec2 .block .img img.svg {
+        width: 54vw;
+        height: 54vw;
+        object-fit: contain;
+    }
+}
